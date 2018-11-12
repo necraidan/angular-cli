@@ -1,7 +1,7 @@
 
 FROM node:10.13-alpine as node-angular-cli
 
-LABEL authors="necraidan <benjamin.auzanneau@gmail.com>"
+LABEL authors="necraidan <benjamin.auzanneau.tm@gmail.com>"
 
 RUN apk update \
     && apk add --update alpine-sdk \
